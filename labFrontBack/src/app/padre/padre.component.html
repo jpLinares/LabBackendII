@@ -1,0 +1,3 @@
+<input placeholder="Text Input" [(ngModel)]="inputPadre"/>
+
+<app-hijo [lblHijo]="inputPadre" (emisor)="this.juan($event)"></app-hijo>
